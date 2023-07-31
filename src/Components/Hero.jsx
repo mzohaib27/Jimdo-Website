@@ -4,6 +4,7 @@ import { Herotext } from "./Constants";
 import { motion } from "framer-motion";
 import { AnimatePresence } from "framer-motion";
 import { FadeIn, slideIn } from "./utils/motion";
+import CommonBtn from "./CommonBtn";
 
 const HeroSection = () => {
   return (
@@ -25,11 +26,12 @@ const HeroSection = () => {
           className="w-[50%] flex flex-col items-start  space-y-8 pt-24 pl-12"
         >
           <p className="text-xl font-light">{Herotext.paragraph}</p>
-          <div className="flex">
+          {/* <div className="flex">
             <button className="px-28 py-4 bg-blue-600 hover:bg-blue-700 hover-effect text-white">
               {Herotext.btn}
             </button>
-          </div>
+          </div> */}
+          <CommonBtn btn="Start Free" />
         </motion.div>
       </div>
       <motion.div

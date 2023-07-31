@@ -19,12 +19,12 @@ function App() {
         <Navbar />
         <HeroSection />
         <Design />
-        <CommonBlue heading={common1.h1} btn={common1.btn} />
+        <CommonBlue heading={common1.h1} />
         <SellingSection />
         <SitesSection />
         <IndependentSection />
         <LinksSection />
-        <CommonBlue heading={common2.h1} btn={common2.btn} />
+        <CommonBlue heading={common2.h1} />
         <FooterSection />
       </div>
     </>

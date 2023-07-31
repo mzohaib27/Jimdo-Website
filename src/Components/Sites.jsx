@@ -1,6 +1,7 @@
 import React from "react";
 import { Sites, Cauroselimages, brandpictures } from "./Constants";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
+import CommonBtn from "./CommonBtn";
 
 const SitesSection = () => {
   const SplideOptions = {
@@ -35,9 +36,7 @@ const SitesSection = () => {
             {Sites.paragraph1}
           </p>
           <div className="flex mx-auto ">
-            <button className="text-white hover:bg-blue-700 bg-blue-600 px-6 py-4 hover-effect">
-              More Examples
-            </button>
+            <CommonBtn btn="More Examples" />
           </div>
         </div>
         <div>

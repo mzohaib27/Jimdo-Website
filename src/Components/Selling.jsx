@@ -1,6 +1,7 @@
 import React from "react";
 import { Selling } from "./Constants";
 import { BiSolidMessageRoundedCheck } from "react-icons/bi";
+import CommonBtn from "./CommonBtn";
 
 const SellingSection = () => {
   return (
@@ -26,9 +27,7 @@ const SellingSection = () => {
               </div>
             ))}
           </div>
-          <button className="bg-blue-600 px-14 py-4 text-white">
-            Let's Get Started
-          </button>
+          <CommonBtn btn="Let's Get Started" />
           <button className="underline hover:text-blue-600">
             How to create an online Store
           </button>
