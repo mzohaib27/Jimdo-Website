@@ -70,6 +70,16 @@ const websiteDesign = {
   img: desingpic,
 };
 
+const common1 = {
+  h1: "Create Your Website Today",
+  btn: "Let's Get Started",
+};
+
+const common2 = {
+  h1: "Love Your Website from Day One",
+  btn: "Let's Get Started",
+};
+
 const Selling = {
   heading: "made simple",
   text: "Create an independent online store—hassle-free.",
@@ -115,38 +125,88 @@ const Independent = {
   prg: " We're passionate about self-employed small business owners like you. Helping you harness your power and thrive online has been our mission from the beginning.",
 };
 
-const Links = [
-  {
-    link1: "Company Website",
-    link2: "Local Business Website",
-    link3: "Freelancer Website",
-    link4: "Personal Website",
-  },
-  {
-    link1: "Portfolio Website",
-    link2: "Photography Website",
-    link3: "Fitness Website",
-    link4: "Music and Band Website",
-  },
-  {
-    link1: "Restaurant Website",
-    link2: "Wedding Website",
-    link3: "Vacation Rental Website",
-    link4: "Medical Website",
-  },
-  {
-    link1: "Coaching Website",
-    link2: "Real Estate Website",
-    link3: "Architecture Website",
-    link4: "Salon Website",
-  },
-  {
-    link1: "Website Builder",
-    link2: "Artist Website",
-    link3: "Author Website",
-    link4: "Teacher Website",
-  },
+// const Links = [
+//   {
+//     link1: "Company Website",
+//     link2: "Local Business Website",
+//     link3: "Freelancer Website",
+//     link4: "Personal Website",
+//   },
+//   {
+//     link1: "Portfolio Website",
+//     link2: "Photography Website",
+//     link3: "Fitness Website",
+//     link4: "Music and Band Website",
+//   },
+//   {
+//     link1: "Restaurant Website",
+//     link2: "Wedding Website",
+//     link3: "Vacation Rental Website",
+//     link4: "Medical Website",
+//   },
+//   {
+//     link1: "Coaching Website",
+//     link2: "Real Estate Website",
+//     link3: "Architecture Website",
+//     link4: "Salon Website",
+//   },
+//   {
+//     link1: "Website Builder",
+//     link2: "Artist Website",
+//     link3: "Author Website",
+//     link4: "Teacher Website",
+//   },
+// ];
+
+// Sample start
+
+const links = [
+  "Company Website",
+  "Local Business Website",
+  "Freelancer Website",
+  "Personal Website",
+  "Portfolio Website",
+  "Photography Website",
+  "Fitness Website",
+  "Music and Band Website",
+  "Restaurant Website",
+  "Wedding Website",
+  "Vacation Rental Website",
+  "Medical Website",
+  "Coaching Website",
+  "Real Estate Website",
+  "Architecture Website",
+  "Salon Website",
+  "Website Builder",
+  "Artist Website",
+  "Author Website",
+  "Teacher Website",
 ];
+
+const paths = [
+  "https://www.jimdo.com/website/business/",
+  "/local-business-website",
+  "/freelancer-website",
+  "/personal-website",
+  "/portfolio-website",
+  "/photography-website",
+  "/fitness-website",
+  "/music-and-band-website",
+  "/restaurant-website",
+  "/wedding-website",
+  "/vacation-rental-website",
+  "/medical-website",
+  "/coaching-website",
+  "/real-estate-website",
+  "/architecture-website",
+  "/salon-website",
+  "/website-builder",
+  "/artist-website",
+  "/author-website",
+  "/teacher-website",
+];
+
+// sample end
 
 const Icons = {
   f: AiFillFacebook,
@@ -215,9 +275,12 @@ export {
   Cauroselimages,
   brandpictures,
   Independent,
-  Links,
+  links,
+  paths,
   Icons,
   Footerlinks,
   LastLinks,
   Languages,
+  common1,
+  common2,
 };

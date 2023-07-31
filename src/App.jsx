@@ -8,6 +8,9 @@ import SitesSection from "./Components/Sites";
 import IndependentSection from "./Components/Independent";
 import LinksSection from "./Components/LinksSection";
 import FooterSection from "./Components/FooterSection";
+import CommonBlue from "./Components/CommonBlue";
+
+import { common1, common2 } from "./Components/Constants";
 
 function App() {
   return (
@@ -16,10 +19,12 @@ function App() {
         <Navbar />
         <HeroSection />
         <Design />
+        <CommonBlue heading={common1.h1} btn={common1.btn} />
         <SellingSection />
         <SitesSection />
         <IndependentSection />
         <LinksSection />
+        <CommonBlue heading={common2.h1} btn={common2.btn} />
         <FooterSection />
       </div>
     </>

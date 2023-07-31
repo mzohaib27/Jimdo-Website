@@ -1,54 +1,22 @@
 import React from "react";
-import { Links } from "./Constants";
+import { links, paths } from "./Constants";
 const LinksSection = () => {
   return (
     <div>
-      <div className="py-12 bg-gray-200">
-        {Links.map((link, i) => (
-          <div key={i} className="grid grid-cols-4 gap-8  px-20">
-            <div className="px-6 py-1">
-              <ul>
+      <div className=" bg-gray-200 grid grid-cols-4 gap-1 px-24 py-14">
+        {links.map((link, i) => (
+          <div key={i} className=" ">
+            <ul>
+              <a href={paths[i]}>
                 <li className="hover:text-blue-600 font-medium text-lg cursor-pointer hover-effect">
-                  {link.link1}
+                  {link}
                 </li>
-              </ul>
-            </div>
-            <div className="px-6 py-1">
-              <ul>
-                <li className="hover:text-blue-600 font-medium text-base cursor-pointer hover-effect">
-                  {link.link2}
-                </li>
-              </ul>
-            </div>
-            <div className="px-6 py-1">
-              <ul>
-                <li className="hover:text-blue-600 font-medium text-lg cursor-pointer hover-effect">
-                  {link.link3}
-                </li>
-              </ul>
-            </div>
-            <div className="px-6 py-1">
-              <ul>
-                <li className="hover:text-blue-600 font-medium text-lg cursor-pointer hover-effect">
-                  {link.link4}
-                </li>
-              </ul>
-            </div>
+              </a>
+            </ul>
           </div>
         ))}
       </div>
-      {/* Blue section */}
 
-      <div className="bg-des flex flex-col py-12 items-center justify-center space-x-4">
-        <h1 className="text-white py-8 text-2xl font-medium">
-          Love your Website from Day One
-        </h1>
-        <div>
-          <button className="text-white hover:bg-blue-700 hover-effect px-12 py-4 bg-blue-600">
-            Let's get started
-          </button>
-        </div>
-      </div>
       {/*  End */}
     </div>
   );

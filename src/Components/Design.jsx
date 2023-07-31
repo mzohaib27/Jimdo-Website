@@ -45,16 +45,6 @@ const Design = () => {
           </div>
         </div>
       </div>
-      <div className="bg-des flex flex-col py-12 items-center justify-center space-x-4">
-        <h1 className="text-white py-6 text-3xl font-semibold">
-          Create your website today
-        </h1>
-        <div>
-          <button className="text-white hover:bg-blue-700 hover-effect px-12 py-4 bg-blue-600">
-            Let's get started
-          </button>
-        </div>
-      </div>
     </>
   );
 };
